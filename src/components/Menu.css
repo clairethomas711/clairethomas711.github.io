@@ -1,0 +1,17 @@
+.navBar 
+{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 10vh;
+     padding-left: 25rem;
+     padding-right: 25rem;
+     background-color: rgba(245, 245, 245, 70%);
+     
+}
+.navLink 
+{
+     display: flex;
+     font-size: 1.5rem;
+     font-weight: bold;
+}

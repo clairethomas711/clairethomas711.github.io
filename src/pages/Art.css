@@ -1,0 +1,49 @@
+* {
+     box-sizing: border-box;
+}
+
+body {
+     margin: 0;
+}
+
+.description 
+{
+     text-align: center;
+     font-size: 1.5em;
+     margin-top: 80px;
+     margin-bottom: 80px;
+     margin-left: 150px;
+     margin-right: 150px;
+}
+
+.row {
+     display: flex;
+     flex-wrap: wrap;
+     padding: 0 80px;
+}
+
+.column {
+     flex: 33%;
+     max-width: 33%;
+     padding: 0 8px;
+}
+
+.column img {
+     margin-top: 16px;
+     vertical-align: middle;
+     width: 100%;
+}
+
+@media screen and (max-width: 850px) {
+     .column {
+          flex: 50%;
+          max-width: 50%;
+     }
+}
+
+@media screen and (max-width: 600px) {
+     .column {
+          flex: 100%;
+          max-width: 100%;
+     }
+}

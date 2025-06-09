@@ -2,31 +2,35 @@ import { useEffect, useState, useRef } from 'react'
 import Menu from '../components/Menu'
 import './Art.css'
 import { Spin } from '../assets/Spin'
+import retro from '../assets/art/FinalAnimation.gif'
+import dawn from '../assets/art/dawn_gif.gif'
+import s from '../assets/art/FinalAnimation_S.gif'
+import profilepic from '../assets/claire2_copy.png'
 
 export default function Art() 
 {
      const images_col_1 = [ 
-          {src: 'src/assets/art/FinalAnimation.gif',
+          {src: retro,
           alt: 'Retro (Character by TriangleMom) - 2024' },
-          {src: 'src/assets/claire2_copy.png',
+          {src: profilepic,
           alt: 'Profile Picture' },
-          {src: 'src/assets/claire2_copy.png',
+          {src: profilepic,
           alt: 'Profile Picture' },
      ]
           const images_col_2 = [
-          {src: 'src/assets/art/dawn_gif.gif',
+          {src: dawn,
           alt: 'Profile Picture' }, 
-          {src: 'src/assets/claire2_copy.png',
+          {src: profilepic,
           alt: 'Profile Picture' },
-          {src: 'src/assets/claire2_copy.png',
+          {src: profilepic,
           alt: 'Profile Picture' },
      ]
           const images_col_3 = [ 
-          {src: 'src/assets/art/FinalAnimation_S.gif',
+          {src: s,
           alt: 'Profile Picture' },
-          {src: 'src/assets/claire2_copy.png',
+          {src: profilepic,
           alt: 'Profile Picture' },
-          {src: 'src/assets/claire2_copy.png',
+          {src: profilepic,
           alt: 'Profile Picture' },
      ]
 

@@ -28,8 +28,13 @@ body {
      padding: 0 8px;
 }
 
+.column button {
+     margin-bottom: 16px;
+     vertical-align: middle;
+     width: 100%;
+     padding: 0 0;
+}
 .column img {
-     margin-top: 16px;
      vertical-align: middle;
      width: 100%;
 }
@@ -46,4 +51,57 @@ body {
           flex: 100%;
           max-width: 100%;
      }
+}
+
+.modal {
+     font-size: 1em;
+}
+
+.modal > .header {
+     width: 100%;
+     border-bottom: 1px whitesmoke;
+     font-size: 1.5em;
+     font-weight: bold;
+     text-align: center;
+     padding: 5px;
+}
+
+.modal > .content {
+     max-width: 100%;
+     padding: 10px 5px;
+     font-size: 1em;
+     text-align: center;
+}
+
+.modal > .close {
+     cursor: pointer;
+     position: absolute;
+     display: block;
+     padding: 0px 10px;
+     right: -20px;
+     top: -20px;
+     font-size: 2em;
+     background: whitesmoke;
+     border-radius: 18px;
+     border: 1px solid whitesmoke;
+}
+
+.modal > .img {
+     max-height: 90vh;
+     padding-left: 20px;
+     padding-right: 20px;
+     display: block;
+     margin: auto;
+}
+
+.popup-content {
+     margin: auto;
+     background: whitesmoke;
+     border-radius: 25px;
+     width: fit-content;
+     padding: 5px;
+}
+
+.popup-overlay {
+     background: rgba(0, 0, 0, 0.5);
 }

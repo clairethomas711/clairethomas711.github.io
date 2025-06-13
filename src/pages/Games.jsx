@@ -13,7 +13,7 @@ export default function Games()
     <>
       <Menu></Menu>
       <div className='my-timeline'>
-      <VerticalTimeline>
+      <VerticalTimeline layout='1-column-left'>
         <VerticalTimelineElement className='vertical-timeline-element--work' date='2025'>
           <h3 className='vertical-timeline-element-title'>???</h3>
           <p>Claire is currently working on a solo project that she hopes to release by the end of 2025.

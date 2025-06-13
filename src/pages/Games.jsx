@@ -21,8 +21,9 @@ export default function Games()
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement className='vertical-timeline-element--work' date='2022'>
-          <img src='https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2124040/header.jpg?t=1666624034'
-           className='game-image'></img>
+          <div className='youtube'>
+          <iframe src={`https://youtube.com/embed/LsZaWv2CiD8?autoplay=0`}></iframe>   
+          </div> 
            <h3 className='vertical-timeline-element-title'>Department of the Devil</h3>
           <p>Department of the Devil is a first-person escape room game in which you must escape from 
             the Devil's office and get out of hell. <i>Bureaucratic</i> hell, specifically. 
@@ -30,8 +31,9 @@ export default function Games()
           <p>Claire worked as the 3D artist, narrative designer, and project manager during this 6 month development cycle.</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement className='vertical-timeline-element--work' date='2021'>
-          <img src='https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1780090/header.jpg?t=1696944214'
-           className='game-image'></img>
+          <div className='youtube'>
+          <iframe src={`https://youtube.com/embed/LtSjGk7T6bk?autoplay=0`}></iframe>   
+          </div> 
           <h3 className='vertical-timeline-element-title'>The Phantom Keeper</h3>
           <p>The Phantom Keeper is a monster-collecting RPG adventure where you are a fallen Soul tasked with
             catching and training creatures known as Phantoms. The project was unable to secure publisher funding
@@ -42,8 +44,9 @@ export default function Games()
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement className='vertical-timeline-element--work' date='2020'>
-          <img src='https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1429950/header.jpg?t=1648226455'
-           className='game-image'></img>
+          <div className='youtube'>
+          <iframe src={`https://youtube.com/embed/2UlBBS2I2Xc?autoplay=0`}></iframe>   
+          </div> 
           <h3 className='vertical-timeline-element-title'>Apotheker</h3>
           <p>Apotheker is a story-driven logic puzzle game where you must learn the delicate art of potion brewing
             through thoughtful use of ingredients, tools, and funds.
@@ -73,8 +76,9 @@ export default function Games()
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement className='vertical-timeline-element--work' date='2018'>
-          <img src='https://img.itch.zone/aW1nLzE0OTc3MTIucG5n/original/amSvy%2F.png'
-           className='game-image'></img>          
+          <div className='youtube'>
+          <iframe src={`https://youtube.com/embed/SHILx5-t3V0?autoplay=0`}></iframe>   
+          </div>      
           <h3 className='vertical-timeline-element-title'>Shikigami: The Paper Spirits</h3>
           <p>Shikigami is a 3D platforming adventure where you play as an enchanted piece of origami paper. Fold into a variety of
             creatures to unlock new abilities and stop the evil spirit, Kuma!

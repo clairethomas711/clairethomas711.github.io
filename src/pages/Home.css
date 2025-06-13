@@ -17,3 +17,14 @@
 .footer {
     background-color: #000;
 }
+
+.my-timeline {
+    max-width: 1900px;
+    margin: auto;
+}
+
+.game-image {
+    width: 75%;
+    display: block;
+    margin: auto;
+}

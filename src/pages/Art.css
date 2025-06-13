@@ -46,13 +46,6 @@ body {
      }
 }
 
-@media screen and (max-width: 600px) {
-     .column {
-          flex: 100%;
-          max-width: 100%;
-     }
-}
-
 .modal {
      font-size: 1em;
 }
@@ -104,4 +97,29 @@ body {
 
 .popup-overlay {
      background: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 600px) {
+     .column {
+          flex: 100%;
+          max-width: 100%;
+     }
+
+     .description {
+          margin-left: 10px;
+          margin-right: 10px;
+     }
+
+     .popup-content {
+          max-width: 90%;
+     }
+
+     .modal > img {
+          max-width: 80%;
+     }
+
+     .modal > .close {
+          right: -15px;
+          top: -15px;
+     }
 }

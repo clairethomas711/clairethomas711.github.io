@@ -6,12 +6,59 @@
      height: 10vh;
      padding-left: 25rem;
      padding-right: 25rem;
-     background-color: rgba(245, 245, 245, 70%);
-     
+     background-color: rgba(245, 245, 245, 70%);   
 }
+
+.hamburger 
+{
+     display: none;
+}
+
 .navLink 
 {
      display: flex;
      font-size: 1.5rem;
      font-weight: bold;
+}
+
+.mobile-menu 
+{
+     display: none;
+}
+
+.menu-icon {
+     display: none;
+}
+
+@media screen and (max-width: 600px) {
+     .navBar {
+          display: none;
+     }
+     .hamburger 
+     {
+          list-style-type: initial;
+          display: block;
+          position: absolute;
+          top: 0;
+          z-index: 10;
+          height: fit-content;
+          width: fit-content;
+          border-radius: 25px;
+          background-color: rgba(245, 245, 245, 90%);
+     }
+     .navLink {
+          display: block;
+          padding: 10px;
+     }
+     .mobile-menu {
+          display: block;
+     }
+     .menu-icon {
+          display: block;
+          font-size: 1em;
+          float: left;
+          position: absolute;
+          top: 0;
+          z-index: 15;
+     }
 }

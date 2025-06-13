@@ -3,20 +3,32 @@ import './Menu.css'
 
 export default function Menu() 
 {
+  const [click, setClick] = useState(false);
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
+
   return (
-     <nav className='navBar'>
-          <div className='navLink'>
+    <>
+    <div className="mobileMenu" onClick={handleClick}>
+        {click ? (
+          <button className="menu-icon">X</button>) : (
+            <button className="menu-icon">&#9776;</button>
+        )}
+      </div>
+     <ul className={click ? 'hamburger' : 'navBar'}>
+          <li className='navLink' onClick={closeMobileMenu}>
             <a href='/'>HOME</a>
-          </div>
-          <div className='navLink'>
+          </li>
+          <li className='navLink' onClick={closeMobileMenu}>
             <a href='/games'>GAMES</a>
-          </div>
-          <div className='navLink'>
+          </li>
+          <li className='navLink' onClick={closeMobileMenu}>
             <a href='/art'>3D ART</a>
-          </div>
-          <div className='navLink'>
+          </li>
+          <li className='navLink' onClick={closeMobileMenu}>
             <a href='/cv'>ACADEMIC CV</a>
-          </div>
-     </nav>
+          </li>
+      </ul>
+      </>
   );
 }

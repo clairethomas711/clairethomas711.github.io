@@ -11,16 +11,23 @@
      height: inherit;
 }
 
+.info 
+{
+     position: relative;
+     width: 100%;
+     height: auto;
+     top: 45%;
+     transform: translateY(-45%);
+     -webkit-transform: translateY(-45%);
+     -ms-transform: translateY(-45%);
+}
+
 .main-title 
 {
      font-size: 5em;
      text-align: left;
      position: relative;
-     margin: 10px;
-     top: 45%;
-     transform: translateY(-45%);
-     -webkit-transform: translateY(-45%);
-     -ms-transform: translateY(-45%);
+     margin-bottom: 10px;
 }
 
 .sub-title
@@ -28,37 +35,26 @@
      text-align: left;
      vertical-align: middle;
      position: relative;
-     top: 45%;
-     padding-right: 25%;
-     transform: translateY(-45%);
-     -webkit-transform: translateY(-45%);
-     -ms-transform: translateY(-45%);
+     margin-bottom: 10px;
+     margin-right: 40%;
 }
 
 .contact-button 
 {
      text-align: left;
      position: relative;
-     margin-top: 1.5em;
-     top: 45%;
-     transform: translateY(-45%);
-     -webkit-transform: translateY(-45%);
-     -ms-transform: translateY(-45%);
+     margin-bottom: 10px;
 }
 
 .profile-pic 
 {
      height:350px;
-     float: right;
      margin: 25px;
-     position: relative;
-     top: 45%;
-     transform: translateY(-45%);
-     -webkit-transform: translateY(-45%);
-     -ms-transform: translateY(-45%);
+     display: block;
+     margin-left: auto;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
      .hero-section {
           height: 95vh;
      }
@@ -68,14 +64,17 @@
           height: 50%;
      }
 
+     .info {
+          position: relative;
+          top: 50%;
+     }
+
      .profile-pic {
-          all: unset;
+
           height: 40vh;
-          position: absolute;
-          bottom: 0;
-          top: auto;
-          left: 50%;
-          transform: translate(-50%, 0);
+          top: 45%;
+          margin-bottom: 0;
+          margin-right: auto;
      }
 
      .main-title {

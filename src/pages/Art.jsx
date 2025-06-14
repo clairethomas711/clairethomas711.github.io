@@ -54,7 +54,7 @@ export default function Art()
           desc_2: 'Modeled, rigged, and rendered in Blender.'},
           {src: s,
           alt: 'Silvia (Character by ) - 2024',
-          desc_1: 'Created for ArtFight 2024. Character design by @',
+          desc_1: 'Created for ArtFight 2024. Character design by @JamJuce',
           desc_2: 'Modeled, rigged, animated, and rendered in Blender.'},
      ]
 
@@ -62,7 +62,7 @@ export default function Art()
      <>
      <Menu></Menu>
      <div className='description'>Claire has worked as the primary 3D artist for all projects released by Pine Drake Games,
-          of which she is also a co-founder. She also was a professional 3D artist at First Playable Productions on projects
+          of which she is also a co-founder. She also served as a professional 3D artist at 1st Playable Productions on projects
           such as Cooking Mama: Cookstar and Disney: Snaps!
      </div>
      <div className='row'>

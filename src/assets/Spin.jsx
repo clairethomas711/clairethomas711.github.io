@@ -4,7 +4,7 @@ import { motion, useInView, useAnimation } from "framer-motion";
 
 export const Spin = ({ children, width = "100%", height = "100%" }) => {
      const ref = useRef(null);
-     const isInView = useInView(ref);
+     const isInView = useInView(ref, {margin: "0px 0px -50px 0px"});
 
      useEffect(() => {
           console.log(isInView);
@@ -19,7 +19,6 @@ export const Spin = ({ children, width = "100%", height = "100%" }) => {
                          visible: {opacity: 1, scale: 1}}}
                     initial="hidden"
                     whileInView="visible"
-                    viewport={{once: true}}
                     transition={{ duration: 0.5, delay: 0.15}}
                >{children}</motion.div>
           </div>

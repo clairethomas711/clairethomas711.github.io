@@ -21,6 +21,8 @@
      text-align: center;
      font-size: 1.5em;
      margin-bottom: 20px;
+     margin-left: 10%;
+     margin-right: 10%;
 }
 
 .button-item 
@@ -48,6 +50,18 @@
      text-align: left;
      columns: 3;
      list-style: none;
+}
+
+@media screen and (max-width: 600px) {
+     .tech-bullet-list
+     {
+          padding-left: 0px;
+          columns: 2;
+     }
+     .bullet-list 
+     {
+          padding-left: 10px;
+     }
 }
 
 .bullet-list .stars 

@@ -4,7 +4,7 @@ import { motion, useInView, useAnimation } from "framer-motion";
 
 export const Reveal = ({ children, width = "100%", height = "100%" }) => {
      const ref = useRef(null);
-     const isInView = useInView(ref);
+     const isInView = useInView(ref, {margin: "0px 0px -50px 0px"});
 
      useEffect(() => {
           console.log(isInView);

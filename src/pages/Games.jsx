@@ -5,7 +5,7 @@ import Menu from '../components/Menu'
 
 import {VerticalTimeline, VerticalTimelineElement} from 'react-vertical-timeline-component'
 import 'react-vertical-timeline-component/style.min.css'
-import './Home.css'
+import './Games.css'
 
 export default function Games() 
 {

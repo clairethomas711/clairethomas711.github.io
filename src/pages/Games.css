@@ -29,8 +29,12 @@
 
 .vertical-timeline-element-content 
 {
-     background-color: rgba(250, 250, 250, 0.3);
-     border: solid whitesmoke 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2.5%;
+    background-color: rgba(250, 250, 250, 0.3);
+    border: solid whitesmoke 5px;
+    border-radius: 25px;
 }
 
 .vertical-timeline-element-content-arrow 

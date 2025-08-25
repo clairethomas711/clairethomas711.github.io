@@ -77,7 +77,7 @@ export default function CV()
     </Reveal>
     <Reveal>
     <h2 className='item-sub-header'>Video Games</h2>
-    <p className='item'>
+    <p className='button-item'>
       <a href={'/games'} text-align='center'><button text-align='center'>View All Games</button></a>
     </p>
     </Reveal>
@@ -134,7 +134,7 @@ export default function CV()
       </Reveal>
     <Reveal>
       <h2 className='item-sub-header'>Software</h2>
-      <div className='item'>
+      <div className='item-list'>
       <ul className='tech-bullet-list'>
         <li className='stars'>Unity Engine</li>
         <li className='stars'>Jira</li>
@@ -153,7 +153,7 @@ export default function CV()
       </Reveal>
     <Reveal>
       <h2 className='item-sub-header'>Programming Languages</h2>
-      <div className='item'>
+      <div className='item-list'>
       <ul className='tech-bullet-list'>
         <li className='stars'>HTML</li>
         <li className='stars'>C++</li>

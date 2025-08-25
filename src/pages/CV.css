@@ -18,11 +18,11 @@
 
 .item 
 {
-     text-align: center;
+     text-align: left;
      font-size: 1.5em;
      margin-bottom: 20px;
-     margin-left: 10%;
-     margin-right: 10%;
+     margin-left: 25%;
+     margin-right: 25%;
 }
 
 .button-item 
@@ -31,10 +31,13 @@
      margin: 50px;
 }
 
-.item button
+.item-list
 {
      text-align: center;
-     font-size: 1em;
+     font-size: 1.5em;
+     margin-bottom: 20px;
+     margin-left: 25%;
+     margin-right: 25%;
 }
 
 .bullet-list 

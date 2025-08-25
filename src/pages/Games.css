@@ -7,6 +7,24 @@
     width: 75%;
     display: block;
     margin: auto;
+    text-align: center;
+}
+
+.link-button 
+{
+    background-color: transparent;
+}
+
+.link-button :hover 
+{
+    filter: brightness(0.5) sepia(1) saturate(1) hue-rotate(600deg) drop-shadow(0 0 0.75em gray);
+    cursor: pointer;
+}
+
+.link-button img 
+{
+    display: inline-block;
+    max-width: 100px;
 }
 
 .youtube {
